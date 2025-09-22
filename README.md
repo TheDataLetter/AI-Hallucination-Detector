@@ -31,14 +31,6 @@ python -m tests.test_basic_validation
 ## Project Structure
 
 ai-hallucination-detector/
-├── data/ # Sample datasets
-├── scripts/ # Database initialization utility
-├── src/ # Core validation logic
-├── tests/ # Unit tests
-├── dashboard/ # Streamlit app for visual validation
-
-
-ai-hallucination-detector/
 
 ├── 01_demo.py # Main demonstration script
 

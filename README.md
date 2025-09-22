@@ -29,12 +29,37 @@ python airflow_simulation.py
 python -m tests.test_basic_validation
 
 ## Project Structure
+
 ai-hallucination-detector/
 ├── data/ # Sample datasets
 ├── scripts/ # Database initialization utility
 ├── src/ # Core validation logic
 ├── tests/ # Unit tests
 ├── dashboard/ # Streamlit app for visual validation
+
+
+ai-hallucination-detector/
+
+├── 01_demo.py # Main demonstration script
+
+├── 02_airflow_simulation.py # Production pipeline simulator
+
+├── LICENSE # MIT License
+
+├── README.md # Project documentation
+
+├── requirements.txt # Python dependencies
+
+├── data/ # Sample datasets
+
+├── scripts/ # Database initialization utility
+
+├── src/ # Core validation logic
+
+├── tests/ # Unit tests
+
+├── dashboard/ # Streamlit app for visual validation
+
 └── airflow/ # Airflow DAG for automation
 
 What This Demonstrates

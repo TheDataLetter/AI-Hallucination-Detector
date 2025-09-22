@@ -1,0 +1,6 @@
+{
+    "explorer.sortOrder": "filesFirst",
+    "files.exclude": {
+        "**/__pycache__": true
+    }
+}

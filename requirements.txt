@@ -1,0 +1,8 @@
+# These are the Python packages needed to run the AI Hallucination Detector
+# Install them with: pip install -r requirements.txt
+
+pandas>=1.3.0        # For data manipulation and analysis
+streamlit>=1.22.0    # For the business dashboard (Layer 3: Contextual Auditing)
+
+# Note: We've removed Airflow from requirements since it's complex to install
+# The airflow_simulation.py file mimics Airflow's behavior without the setup complexity
